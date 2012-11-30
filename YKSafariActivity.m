@@ -32,9 +32,7 @@
 }
 
 - (UIImage *)activityImage {
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
-        return [UIImage imageNamed:@"safari-ipad.png"];
-    return [UIImage imageNamed:@"safari.png"];
+    return [UIImage imageNamed:@"YKSafariActivityIcon"];
 }
 
 - (NSString *)activityTitle {
